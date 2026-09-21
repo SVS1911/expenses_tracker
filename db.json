@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "name": "Ayinavolu Dharani Chand",
+      "email": "dharanichand07@gmail.com",
+      "password": "Chand@15",
+      "id": "WUrf9ZgGVzA"
+    },
+    {
+      "name": "Gopal",
+      "email": "svsg@gmail.com",
+      "password": "Gopal@06",
+      "id": "SfNKfmys4vc"
+    },
+    {
+      "name": "Sribhashyam Venkata Sai Gopal",
+      "email": "SVSG@gmail.com",
+      "password": "Sribhashyam@2006",
+      "id": "SVjWEjV38Ys"
+    }
+  ],
+  "expenses": [
+    {
+      "title": "Kulkule",
+      "amount": "100",
+      "category": "Food",
+      "date": "2026-09-21",
+      "description": "cilidhal",
+      "user": "WUrf9ZgGVzA",
+      "id": "DVG1Avgpnic"
+    },
+    {
+      "title": "Lace",
+      "amount": "100",
+      "category": "Food",
+      "date": "2026-09-21",
+      "description": "Gofal",
+      "user": "WUrf9ZgGVzA",
+      "id": "5UQUiA_B5sA"
+    },
+    {
+      "title": "Boooks",
+      "amount": "3000",
+      "category": "Academic",
+      "date": "2026-09-21",
+      "description": "Jithuuuuuu",
+      "user": "WUrf9ZgGVzA",
+      "id": "qBjgYRydbt0"
+    },
+    {
+      "title": "Sweet Core Pizza",
+      "amount": "250",
+      "category": "Food",
+      "date": "2026-09-21",
+      "description": "Snack time",
+      "user": "SVjWEjV38Ys",
+      "id": "dtdzASAcMs4"
+    },
+    {
+      "title": "JBL Headset",
+      "amount": "1400",
+      "category": "Entertainment",
+      "date": "2026-09-13",
+      "description": "Gaming Accisories",
+      "user": "SVjWEjV38Ys",
+      "id": "hKvzCeavpYs"
+    },
+    {
+      "title": "T-Shirt",
+      "amount": "400",
+      "category": "Other",
+      "date": "2026-09-21",
+      "description": "For Fest",
+      "user": "SVjWEjV38Ys",
+      "id": "fLtXZBKnt4g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

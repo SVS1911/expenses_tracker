@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker · Overview</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <main class="landing app">
+    <header class="page-header">
+      <div>
+        <span class="eyebrow">YOUR MONEY, YOUR CLARITY</span>
+        <h1 id="welcome">Good to see you.</h1>
+        <p class="subtitle">A calm space to understand where your money goes.</p>
+      </div>
+      <button id="logout" class="outline-button">Logout</button>
+    </header>
+
+    <section class="hero-card">
+      <div class="hero-copy">
+        <span class="eyebrow">THIS MONTH</span>
+        <h2>Spend with intention.</h2>
+        <p>Set a comfortable limit, then let your daily choices add up.</p>
+        <a class="primary-button add-expense-button" href="index.html">
+          <span aria-hidden="true">+</span> Add Exp.
+        </a>
+        <p id="limitNotice" class="limit-notice" aria-live="polite"></p>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <span class="orbit-dot dot-one"></span>
+        <span class="orbit-dot dot-two"></span>
+        <span class="orbit-dot dot-three"></span>
+        <span class="orbit-center">₹</span>
+      </div>
+    </section>
+
+    <section class="overview-grid">
+      <article class="summary-card budget-card">
+        <div class="card-heading">
+          <span class="eyebrow">SPENDING LIMIT</span>
+          <button id="editLimit" class="text-button">Set limit</button>
+        </div>
+        <p id="limitAmount" class="large-number">Not set</p>
+        <div class="progress-track">
+          <div id="budgetProgress" class="progress-value"></div>
+        </div>
+        <p id="budgetMessage" class="card-note">Choose a limit to start tracking your pace.</p>
+      </article>
+
+      <article class="summary-card">
+        <span class="eyebrow">TOTAL SPENT</span>
+        <p id="totalSpent" class="large-number">₹0</p>
+        <p class="card-note">Across all recorded expenses</p>
+      </article>
+
+      <article class="summary-card">
+        <span class="eyebrow">ENTRIES</span>
+        <p id="expenseCount" class="large-number">0</p>
+        <p class="card-note">Expenses added so far</p>
+      </article>
+    </section>
+
+    <section class="recent-section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">A QUICK LOOK</span>
+          <h2>Recent expenses</h2>
+        </div>
+        <a class="secondary-button" href="index.html">View all expenses</a>
+      </div>
+      <section id="recentExpenses" class="recent-list"></section>
+      <p id="emptyState" class="empty-state">Your recent expenses will appear here.</p>
+      <p id="error"></p>
+    </section>
+  </main>
+
+  <script type="module" src="../js/landing.js"></script>
+</body>
+</html>
