@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Expense Tracker
 
 ## Run
@@ -29,3 +30,6 @@ Logout
 - Filter by a date range
 - Total expense
 - Category-wise expense
+=======
+# expenses_tracker
+>>>>>>> d03e7d09d3492d78369a12a57ca23fb26b982fcf
