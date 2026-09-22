@@ -382,6 +382,19 @@ h2 {
   margin: 15px 0 28px;
 }
 
+.filter-group {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-group label {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 700;
+}
+
 input,
 select {
   min-width: 0;
