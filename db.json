@@ -17,6 +17,12 @@
       "email": "SVSG@gmail.com",
       "password": "Sribhashyam@2006",
       "id": "SVjWEjV38Ys"
+    },
+    {
+      "name": "charan",
+      "email": "charan@gmail.com",
+      "password": "charan4573",
+      "id": "4jv0yEnFfI4"
     }
   ],
   "expenses": [
@@ -73,6 +79,15 @@
       "description": "For Fest",
       "user": "SVjWEjV38Ys",
       "id": "fLtXZBKnt4g"
+    },
+    {
+      "title": "RedBull",
+      "amount": "600",
+      "category": "Other",
+      "date": "2026-09-21",
+      "description": "Energy Drinks -- Quantity of 4",
+      "user": "4jv0yEnFfI4",
+      "id": "5DglYgeOhgc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

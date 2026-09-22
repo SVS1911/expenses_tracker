@@ -1,12 +1,8 @@
-import axios from
-  "https://cdn.jsdelivr.net/npm/axios@1.7.9/+esm";
+import axios from "https://cdn.jsdelivr.net/npm/axios@1.7.9/+esm";
 
-import { USER_URL }
-  from "./service/apiConfig.js";
+import { USER_URL } from "./service/apiConfig.js";
 
-
-const $ = (id) =>
-  document.getElementById(id);
+const $ = (id) => document.getElementById(id);
 
 const error = $("error");
 
